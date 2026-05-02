@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramy Store | ابدأ مشروعك الآن</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- شريط الإعلان العلوي -->
+    <div class="top-bar">شحن مجاني للطلبات أكثر من 1000 جنيه!</div>
+
+    <!-- الهيدر الرئيسي -->
+    <header>
+        <div class="header-container">
+            <div class="logo">RAMY <span>STORE</span></div>
+            <div class="search-box">
+                <input type="text" placeholder="ابحث عن تصميم، منتج، أو فنان...">
+                <button>بحث</button>
+            </div>
+            <div class="user-menu">
+                <span>تسجيل دخول</span>
+                <span class="cart-icon">🛒 السلة</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- قائمة الأقسام -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#">تيشرتات</a></li>
+            <li><a href="#">هوديز</a></li>
+            <li class="special-link"><a href="#designers">للمصممين</a></li>
+            <li class="special-link"><a href="#marketers">للمسوقين</a></li>
+        </ul>
+    </nav>
+
+    <!-- واجهة المتجر الرئيسية -->
+    <section class="banner">
+        <div class="banner-content">
+            <h2>البس اللي يعبر عنك</h2>
+            <p>أكبر تشكيلة من التصميمات الإبداعية في مصر</p>
+            <a href="#" class="cta-button">تسوق الآن</a>
+        </div>
+    </section>
+
+    <!-- شبكة المنتجات -->
+    <section class="container">
+        <h2 class="section-title">أحدث المنتجات</h2>
+        <div class="product-grid">
+            <div class="card">
+                <div class="badge">جديد</div>
+                <div class="img-box">صورة المنتج</div>
+                <div class="card-info">
+                    <h4>تيشرت قطن - تصميم إبداع</h4>
+                    <span class="price">350 ج.م</span>
+                    <button class="add-to-cart">أضف للسلة</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-box">صورة المنتج</div>
+                <div class="card-info">
+                    <h4>هوديز شتوي - شعار خاص</h4>
+                    <span class="price">600 ج.م</span>
+                    <button class="add-to-cart">أضف للسلة</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-box">صورة المنتج</div>
+                <div class="card-info">
+                    <h4>ماج سيراميك - فنون</h4>
+                    <span class="price">150 ج.م</span>
+                    <button class="add-to-cart">أضف للسلة</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المصممين والمسوقين -->
+    <section class="join-us-section">
+        <div class="container">
+            <h2 class="section-title">ابدأ رحلة نجاحك مع RAMY STORE</h2>
+            <div class="join-grid">
+                <div class="join-card designer-box" id="designers">
+                    <div class="icon">🎨</div>
+                    <h3>للمصممين المبدعين</h3>
+                    <p>ارفع تصميماتك الفريدة على منتجاتنا، وحدد ربحك بنفسك.</p>
+                    <button class="join-btn" onclick="document.getElementById('registration-form').style.display='flex'">ابدأ التصميم الآن</button>
+                </div>
+                <div class="join-card marketer-box" id="marketers">
+                    <div class="icon">📢</div>
+                    <h3>للمسوقين (الأفيليت)</h3>
+                    <p>هل لديك جمهور؟ سوق لمنتجاتنا واحصل على عمولة مجزية.</p>
+                    <button class="join-btn" onclick="document.getElementById('registration-form').style.display='flex'">انضم كمسوق</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- نموذج التسجيل المنبثق -->
+    <section id="registration-form" class="form-container">
+        <div class="form-box">
+            <h3>انضم إلى عائلة RAMY STORE</h3>
+            <form>
+                <input type="text" placeholder="الاسم بالكامل" required>
+                <input type="email" placeholder="البريد الإلكتروني" required>
+                <select>
+                    <option value="designer">أريد الانضمام كمصمم</option>
+                    <option value="marketer">أريد الانضمام كمسوق</option>
+                </select>
+                <textarea placeholder="نبذة عن خبرتك" rows="4"></textarea>
+                <button type="submit" class="submit-btn">إرسال الطلب</button>
+                <button type="button" class="close-btn" onclick="document.getElementById('registration-form').style.display='none'">إغلاق</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramy Store | ابدأ مشروعك الآن</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- شريط الإعلان العلوي -->
+    <div class="top-bar">شحن مجاني للطلبات أكثر من 1000 جنيه!</div>
+
+    <!-- الهيدر الرئيسي -->
+    <header>
+        <div class="header-container">
+            <div class="logo">RAMY <span>STORE</span></div>
+            <div class="search-box">
+                <input type="text" placeholder="ابحث عن تصميم، منتج، أو فنان...">
+                <button>بحث</button>
+            </div>
+            <div class="user-menu">
+                <span>تسجيل دخول</span>
+                <span class="cart-icon">🛒 السلة</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- قائمة الأقسام -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#">تيشرتات</a></li>
+            <li><a href="#">هوديز</a></li>
+            <li class="special-link"><a href="#designers">للمصممين</a></li>
+            <li class="special-link"><a href="#marketers">للمسوقين</a></li>
+        </ul>
+    </nav>
+
+    <!-- واجهة المتجر الرئيسية -->
+    <section class="banner">
+        <div class="banner-content">
+            <h2>البس اللي يعبر عنك</h2>
+            <p>أكبر تشكيلة من التصميمات الإبداعية في مصر</p>
+            <a href="#" class="cta-button">تسوق الآن</a>
+        </div>
+    </section>
+
+    <!-- شبكة المنتجات -->
+    <section class="container">
+        <h2 class="section-title">أحدث المنتجات</h2>
+        <div class="product-grid">
+            <div class="card">
+                <div class="badge">جديد</div>
+                <div class="img-box">صورة المنتج</div>
+                <div class="card-info">
+                    <h4>تيشرت قطن - تصميم إبداع</h4>
+                    <span class="price">350 ج.م</span>
+                    <button class="add-to-cart">أضف للسلة</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-box">صورة المنتج</div>
+                <div class="card-info">
+                    <h4>هوديز شتوي - شعار خاص</h4>
+                    <span class="price">600 ج.م</span>
+                    <button class="add-to-cart">أضف للسلة</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-box">صورة المنتج</div>
+                <div class="card-info">
+                    <h4>ماج سيراميك - فنون</h4>
+                    <span class="price">150 ج.م</span>
+                    <button class="add-to-cart">أضف للسلة</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المصممين والمسوقين -->
+    <section class="join-us-section">
+        <div class="container">
+            <h2 class="section-title">ابدأ رحلة نجاحك مع RAMY STORE</h2>
+            <div class="join-grid">
+                <div class="join-card designer-box" id="designers">
+                    <div class="icon">🎨</div>
+                    <h3>للمصممين المبدعين</h3>
+                    <p>ارفع تصميماتك الفريدة على منتجاتنا، وحدد ربحك بنفسك.</p>
+                    <button class="join-btn" onclick="document.getElementById('registration-form').style.display='flex'">ابدأ التصميم الآن</button>
+                </div>
+                <div class="join-card marketer-box" id="marketers">
+                    <div class="icon">📢</div>
+                    <h3>للمسوقين (الأفيليت)</h3>
+                    <p>هل لديك جمهور؟ سوق لمنتجاتنا واحصل على عمولة مجزية.</p>
+                    <button class="join-btn" onclick="document.getElementById('registration-form').style.display='flex'">انضم كمسوق</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- نموذج التسجيل المنبثق -->
+    <section id="registration-form" class="form-container">
+        <div class="form-box">
+            <h3>انضم إلى عائلة RAMY STORE</h3>
+            <form>
+                <input type="text" placeholder="الاسم بالكامل" required>
+                <input type="email" placeholder="البريد الإلكتروني" required>
+                <select>
+                    <option value="designer">أريد الانضمام كمصمم</option>
+                    <option value="marketer">أريد الانضمام كمسوق</option>
+                </select>
+                <textarea placeholder="نبذة عن خبرتك" rows="4"></textarea>
+                <button type="submit" class="submit-btn">إرسال الطلب</button>
+                <button type="button" class="close-btn" onclick="document.getElementById('registration-form').style.display='none'">إغلاق</button>
+            </form>
+        </div>
+    </section>
+
+</body><script>
+    // هذه الوظيفة تعمل عند الضغط على زر إرسال الطلب
+    document.querySelector('.submit-btn').addEventListener('click', function(e) {
+        e.preventDefault(); // منع الصفحة من التحميل
+
+        // التقاط البيانات من الخانات
+        const name = document.querySelector('input[placeholder="الاسم بالكامل"]').value;
+        const type = document.querySelector('select').value;
+
+        if(name === "") { alert("برجاء إدخال الاسم"); return; }
+
+        // إنشاء كائن (Object) للبيانات
+        const newRequest = { name: name, type: type, status: "قيد الانتظار" };
+
+        // جلب البيانات القديمة أو إنشاء قائمة جديدة
+        let requests = JSON.parse(localStorage.getItem('storeRequests')) || [];
+        requests.push(newRequest);
+
+        // حفظ القائمة المحدثة في الذاكرة
+        localStorage.setItem('storeRequests', JSON.stringify(requests));
+
+        alert("تم إرسال طلبك بنجاح يا " + name);
+        document.getElementById('registration-form').style.display = 'none';
+    });
+</script>
+</html>
